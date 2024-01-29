@@ -1,0 +1,45 @@
+main {
+    width: 30%;
+    margin: auto;
+}
+
+.kotelezo_mezo label::after {
+    content: "*";
+    color: red;
+}
+
+.legend1 {
+    background-color: lawngreen;
+    border: 1px solid gray;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.legend2 {
+    background-color: lightskyblue;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.gomb {
+    background-color: lawngreen;
+    border: 1px solid gray;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.border {
+    border: 3px solid lightskyblue;
+    background-color:rgb(224, 227, 233);
+}
+
+.border input {
+    float: right;
+    margin: right;
+}
+
+br {
+    clear: both;
+}

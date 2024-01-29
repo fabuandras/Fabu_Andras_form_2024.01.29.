@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="form">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Fabu András">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilus.css">
+    <title>Fabu András</title>
+</head>
+<body>
+    <main>
+        <form action="#" method="get">
+            <fieldset class="border">
+                <legend class="legend1">regisztráció</legend>
+
+                    <label for="felhasznalonev" class="kotelezo_mezo">felhasználónév</label>
+                    <input type="text" id="felhasznalonev" name="felhasznalonev" placeholder="csak ékezetmentes betűk"><br/>
+
+                    <label for="jelszo">jelszó</label>
+                    <input type="text" id="jelszo" name="jelszo" placeholder="min. 3 karakter"><br/>
+
+                    <label for="email">e-mail cím</label>
+                    <input type="text" id="email" name="email" placeholder="vmi@vmi.hu">
+
+            </fieldset>
+
+            <fieldset class="border">
+                <legend class="legend1">születés</legend>
+                
+                    <label for="szuletesidatum">születési dátum</label>
+                    <input type="date" id="szuletesidatum" name="szuletesidatum">
+                
+                <fieldset class="border">
+                    <legend class="legend2">személyes</legend>
+
+                        <input type="checkbox" id="angol" name="angol" value="angol">
+                        <label for="angol">angol</label><br/>
+
+                        <input type="checkbox" id="német" name="német" value="német">
+                        <label for="angol">német</label>
+
+                        <label for="szakok">Választott szak:</label>
+                        <select id="szakok" name="szakok" form="szakok">
+                            <option value="szfa1">SZFA1</option>
+                            <option value="szfa2">SZFA2</option>
+                            <option value="szfb">SZFB</option>
+                            <option value="irua1">IRUA1</option>
+                            <option value="irua2">IRUA2</option>
+                        </select>
+
+                        <input type="radio" id="ferfi" name="ferfi" value="ferfi">
+                        <label for="ferfi">férfi</label><br/>
+
+                        <input type="radio" id="no" name="no" value="no">
+                        <label for="no">nő</label>
+
+                </fieldset>
+
+            </fieldset>
+        </form>
+        <input type="submit" value="regisztráció" class="gomb">
+    </main>
+</body>
+</html>
